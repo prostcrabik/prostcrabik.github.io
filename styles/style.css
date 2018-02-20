@@ -16,8 +16,8 @@ body {
 	width: 1920px; //Всегда Body будет 1920 пикселей в ширину
 	margin: 0 auto; //margin Влияет на верхнюю и нижнюю строки
 	background-color: #ff9500;'background-color цвет фона элемента'
-	padding: 0 20px 20px 20px;'padding влияет на левую и правую стороны'
-	border: 5px solid black;'Устанавливает сплошную черную рамку шириной 5 пикселей'
+	padding: 0px 50px 50px 50px;'padding влияет на левую и правую стороны'
+	border: px solid black;'Устанавливает сплошную черную рамку шириной 5 пикселей'
 }
 h1 {
 	margin: 0;
@@ -30,7 +30,7 @@ img {
 	margin: 0 auto;
 }
 a {
-	font-size: 15px;
+	font-size: 20px;
 }
 
 
@@ -42,6 +42,7 @@ ul.menu li {
 ul, li {
 	text-align: center; //выравнивание текста по центру
 }
+
 
 
 
@@ -61,8 +62,8 @@ i {
 }
 nav {
   display: block;
-  width: 1000px;
-  margin: 0 auto 30px;
+  width: 1500px;
+  margin: 0 auto 10px;
 }
 .one ul {
   padding: 1em 0;
@@ -78,5 +79,5 @@ nav {
 .one li {
   display: inline;
 }
-	
+
 	
