@@ -8,9 +8,9 @@ h1 {
 	text-align: center;
 }
 p, li {
-	font-size: 16px;
-	line-height: 2;
-	letter-spacing: 1px;
+	font-size: 16px; //Определяет размер шрифта
+	line-height: 2;// Устанавливает межстрочный интервал
+	letter-spacing: 1px;//Определяет интервал между символами в пределах элемента
 }
 body {
 	width: 1920px; //Всегда Body будет 1920 пикселей в ширину
@@ -79,5 +79,8 @@ nav {
 .one li {
   display: inline;
 }
+ p {
+    word-spacing: 1px; //Устанавливает интервал между словами.
+   } 
 
 	
