@@ -14,10 +14,10 @@ p, li {
 }
 body {
 	width: 1920px; //Всегда Body будет 1920 пикселей в ширину
+	height: 1080px;
 	margin: 0 auto; //margin Влияет на верхнюю и нижнюю строки
-	background-color: #ff9500;'background-color цвет фона элемента'
-	padding: 0px 50px 50px 50px;'padding влияет на левую и правую стороны'
-	border: px solid black;'Устанавливает сплошную черную рамку шириной 5 пикселей'
+	
+	
 }
 h1 {
 	margin: 0;
@@ -34,6 +34,7 @@ a {
 }
 
 
+
 ul.menu li {
 	display: inline;
 	margin-right: 4px;
@@ -42,12 +43,6 @@ ul.menu li {
 ul, li {
 	text-align: center; //выравнивание текста по центру
 }
-
-
-
-
-
-
 ul {
   list-style: none; 
   margin: 0 auto;
