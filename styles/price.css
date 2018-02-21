@@ -15,5 +15,50 @@ p {
 	text-align: center;
 	padding: 20px 0;
 	color: #00539F;
+	
+}
 
+
+
+
+
+ul.menu li {
+	display: inline;
+	margin-right: 4px;
+	padding: 2px;
+}
+ul, li {
+	text-align: center; //выравнивание текста по центру
+}
+
+ul {
+  list-style: none; 
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  
+}
+i {
+  margin-right: 100px;
+}
+nav {
+  display: block;
+  width: 1500px;
+  margin: 0 auto 10px;
+}
+.one ul {
+  padding: 0em 0;
+  background: #;
+}
+.one a {
+  padding: 2em;
+  background: rgba(177, 152, 145, .3);
+  border-right: 1px solid #1E90FF;
+  color: #695753;
+}
+.one a:hover {background: #1E90FF;}
+.one li {
+  display: inline;
 }
