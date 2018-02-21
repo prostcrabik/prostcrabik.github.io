@@ -49,7 +49,7 @@ i {
 }
 nav {
   display: block;
-  width: 1400px;
+  width: 1500px;
   margin: 0 auto 10px;
 }
 .one ul {
@@ -57,9 +57,9 @@ nav {
   background: #;
 }
 .one a {
-  padding: 5px;
+  padding: 11px;
   background: rgba(177, 152, 145, .3);
-  border-right: 1px solid #1E90FF;
+  border-right: 0px solid #1E90FF;
   color: #695753;
 }
 .one a:hover {background: #1E90FF;}
