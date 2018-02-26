@@ -1,68 +1,26 @@
+html {
+	font-size: 20px;
+	font-family: 'PT Serif', serif;
+	
+}
 p {
-	font-size: 30px;
+	font-size: 50px;
 	text-align: center;
-	margin: 0;
-	padding: 20px 0;
-	color: #DC143C;
-	
-}
-
-h1 {
-	font-size: 30px;
-	text-align: center;
-	margin: 0;
-	padding: 20px 0;
 	color: #00539F;
-	
+	text-shadow: 3px 3px 1px black; 'Добавляет тень для текста'
 }
 
 ul {
-	font-size: 30px;
-	color: #00539F;
-	
+padding: 0px 50px;
 }
 
+#infa {
+	padding: 10px 10px;
+	list-style-type: none;
+}
 
+#infa2 {
+		padding: 10px 70px;
+		list-style-type: none;
+}
 
-
-
-
-ul.menu li {
-	display: inline;
-	margin-right: 4px;
-	padding: 2px;
-}
-ul, li {
-	text-align: center; //выравнивание текста по центру
-}
-ul {
-  list-style: none; 
-  margin: 0 auto;
-}
-a {
-  text-decoration: none;
-  font-family: 'Lora', serif;
-  
-}
-i {
-  margin-right: 100px;
-}
-nav {
-  display: block;
-  width: 1500px;
-  margin: 0 auto 10px;
-}
-.one ul {
-  padding: 0em 0;
-  background: #;
-}
-.one a {
-  padding: 11px;
-  background: rgba(177, 152, 145, .3);
-  border-right: 0px solid #1E90FF;
-  color: #695753;
-}
-.one a:hover {background: #1E90FF;}
-.one li {
-  display: inline;
-}
