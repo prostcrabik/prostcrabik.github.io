@@ -9,6 +9,16 @@
 <style>
 body {
 background: url(images/fon3.jpg);
+ background-position: center center; /*Задает начальное положение фонового изображения, установленного с помощью свойства background-image.*/
+   background-repeat: no-repeat; /*Определяет, как будет повторяться фоновое изображение, установленное с помощью свойства background-image. Можно установить повторение рисунка только по горизонтали, по вертикали или в обе стороны. */
+    background-attachment: fixed; /*Свойство background-attachment устанавливает, будет ли прокручиваться фоновое изображение вместе с содержимым элемента. Изображение может быть зафиксировано и оставаться неподвижным, либо перемещаться совместно с документом*/
+	background-size: cover; /*Масштабирует фоновое изображение согласно заданным размерам.*/
+	
+
+}
+
+.colortext {
+color: red;
 }
 
 #navbar {
@@ -38,8 +48,19 @@ background: url(images/fon3.jpg);
         background-color: #B22222;
       }
 
+.thumb img {
+text-align: center;
+border: 2px solid; /* Рамка вокруг фото */
+background: #666; /* Цвет фона */
+margin-right: 10px; /* Отступ справа */
+margin-bottom: 10px; /* Отступ снизу */
+border-width: 10px 10px 10px 10px; /* Толщина границы */
+}
 
+.fiq {
+text-align: center;
 
+}
 </style>
 
 	
@@ -58,11 +79,8 @@ background: url(images/fon3.jpg);
 
  
  
-    <img src="images/test.jpg" alt="Пример работы мастера"
-	width = "600";
-	height = "287";
-	title = "Пример работы мастера">
-	<p>Рада приветствовать Вас на свое м сайте. Позвольте представиться,меня зовут Екатерина, занимаюсь наращиванием ресничек, пока только классика и 2D. Добро пожаловать! :)</p>
+   
+	<p><b>Рада приветствовать Вас на своем сайте. Позвольте представиться,меня зовут Екатерина, занимаюсь наращиванием ресничек, не только классика, 2D но и 3D. Добро пожаловать! :)</b></p>
 	<p>Вся правда о наращивании ресниц
        Наращивание ресниц способно спасти нашу бьюти-жизнь. Но у идеальных ресниц 24/7 есть и свои минусы, которые важно знать, прежде чем с разбегу прыгать в бассейн или идти париться в сауне. Плюсы:</p>
 
@@ -72,6 +90,18 @@ background: url(images/fon3.jpg);
 <li>В любой непонятной ситуации вы всегда при макияже. Достаточно накрасить губы или сделать тон. Или вообще больше ничего не наносить — мы же любим минимализм.</li>
 </ul>
 
-<center><a href="https://vk.com/club158252776">Наша группа вконтакте</a></center>
+<p class="thumb">
+<img src="images/privet1.jpg">
+<img src="images/privet2.jpg">
+<img src="images/privet3.jpg">
+</p>
+
+<p class="fiq">
+<img src="images/privet4.jpg">
+<img src="images/privet5.jpg">
+</p>
+
+<p id="socset"><b><span class="colortext">Мы в социальных сетях</span></b></p> 
+<center><a href="https://vk.com/club158252776"><img src="images/vk.png"></a></center>
  <script src="scripts/main.js"></script></body>
 </html>

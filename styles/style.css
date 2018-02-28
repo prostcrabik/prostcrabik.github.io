@@ -8,9 +8,10 @@ h1 {
 	text-align: center;
 }
 p, li {
-	font-size: 16px; //Определяет размер шрифта
+	font-size: 20px; //Определяет размер шрифта
 	line-height: 2;// Устанавливает межстрочный интервал
 	letter-spacing: 1px;//Определяет интервал между символами в пределах элемента
+	
 }
 body {
 	width: 1920px; //Всегда Body будет 1920 пикселей в ширину
@@ -24,15 +25,16 @@ h1 {
 	color: #00539F;
 	text-shadow: 3px 3px 1px black; 'Добавляет тень для текста'
 }
-img {
-	display: block;
-	margin: 0 auto;
-}
+
 a {
 	font-size: 20px;
 }
 
-
+#socset {
+	text-align: center;
+	font-size: 30px;
+	
+}
 
 
 	
